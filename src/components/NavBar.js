@@ -11,7 +11,9 @@ export default function NavBar() {
           <a className={router.pathname === "/" ? "active" : ""}>Home</a>
         </Link>
         <Link href="/about" legacyBehavior>
-          <a className={router.pathname === "/about" ? "active" : ""}>About</a>
+          <a className={router.pathname === "/about" ? "active" : ""}>
+            About-us
+          </a>
         </Link>
       </div>
       <style jsx>{`
